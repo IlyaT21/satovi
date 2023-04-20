@@ -15,15 +15,15 @@
 </section>
 <section class="home-types-section">
   <div class="content">
-    <a href="#">
+    <a href="products/category/muski">
       <img src="{{url('/images/home/muski.png')}}" alt="Muski">
       Muski
     </a>
-    <a href="#">
+    <a href="products/category/zenski">
       <img src="{{url('/images/home/zenski.png')}}" alt="Zenski">
       Zenski
     </a>
-    <a href="#">
+    <a href="products/category/dodaci">
       <img src="{{url('/images/home/dodaci.png')}}" alt="Dodaci">
       Dodaci
     </a>
