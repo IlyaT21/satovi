@@ -1,0 +1,31 @@
+.admin-body-section {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+
+	.sidebar {
+		display: grid;
+		grid-auto-rows: 100px;
+
+		.menu-item {
+			padding-left: 5%;
+			display: grid;
+			justify-items: start;
+			align-items: center;
+			background-color: #e0423d;
+			color: #fff;
+			font-size: 20px;
+			font-weight: bold;
+			text-decoration: none;
+			border-right: 3px solid #e0423d;
+
+			&:hover {
+				background-color: #fff;;
+				color: #e0423d;
+			}
+		}
+	}
+
+	.general-information {
+		background-color: gray;
+	}
+}

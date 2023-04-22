@@ -2,8 +2,8 @@
 
 @section('content')
   <section class="admin-body-section">
-    <div class="content">
-      @include('sidebar')
+      @include('admin.sidebar')
+			<div class="general-information">
     </div>
   </section>
 @endsection

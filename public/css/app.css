@@ -1,4 +1,32 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
+.admin-body-section {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.admin-body-section .sidebar {
+  display: grid;
+  grid-auto-rows: 100px;
+}
+.admin-body-section .sidebar .menu-item {
+  padding-left: 5%;
+  display: grid;
+  justify-items: start;
+  align-items: center;
+  background-color: #e0423d;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  border-right: 3px solid #e0423d;
+}
+.admin-body-section .sidebar .menu-item:hover {
+  background-color: #fff;
+  color: #e0423d;
+}
+.admin-body-section .general-information {
+  background-color: gray;
+}
+
 body {
   margin: 0;
 }
@@ -1278,42 +1306,6 @@ body .checkout-body-section .content .button-holder .cart-button {
   font-weight: bold;
   border: none;
   cursor: pointer;
-}
-body .admin-body-section {
-  display: flex;
-  justify-content: center;
-  padding: 50px 0;
-}
-body .admin-body-section .content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 1330px;
-  max-width: 84%;
-}
-body .admin-body-section .content .holder {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-  width: 100%;
-}
-body .admin-body-section .content .holder a {
-  padding: 20px 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #e0423d;
-  color: #fff;
-  border-radius: 30px;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
-  width: 400px;
-  max-width: 100%;
-}
-body .admin-body-section .content .holder a:hover {
-  color: #000;
 }
 body .footer {
   background: #e6e6e6;

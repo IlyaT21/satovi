@@ -1,11 +1,7 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
-// Variables
-// @import 'variables';
-
-// Bootstrap
-// @import 'bootstrap/scss/bootstrap';
+@import "admin";
 
 body {
   margin: 0;
@@ -1475,49 +1471,6 @@ body {
     }
   }
   //End Checkout
-
-  //Start Admin
-  .admin-body-section {
-    display: flex;
-    justify-content: center;
-    padding: 50px 0;
-
-    .content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 1330px;
-      max-width: 84%;
-
-      .holder {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 15px;
-        width: 100%;
-
-        a {
-          padding: 20px 40px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          background-color: #e0423d;
-          color: #fff;
-          border-radius: 30px;
-          text-decoration: none;
-          font-size: 20px;
-          font-weight: bold;
-          width: 400px;
-          max-width: 100%;
-
-          &:hover {
-            color: #000;
-          }
-        }
-      }
-    }
-  }
-  // End Admin
 
   // Start Footer
   .footer {
